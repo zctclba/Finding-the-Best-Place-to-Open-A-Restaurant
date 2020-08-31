@@ -1,0 +1,4 @@
+# I will use the location data of New York and Toronto provided in Module 3, clean and reformat the datasets, pull the coordinates of each neighborhood, 
+get the features of their neighborhoods using Foursquare API, segment and cluster their neighborhoods into 5 clusters. 
+Then compare and analyze the features of these clusters, and find the best place to open a restaurant either in New York or Toronto.
+

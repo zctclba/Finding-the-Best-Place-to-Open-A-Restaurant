@@ -1,0 +1,66 @@
+Finding the Best Place to Open A Restaurant
+
+
+1. Introduction
+The research focus on the neighborhoods of New York City and Toronto, two of the most important financial and cultural cities in North America. I will analyze 
+the features of the neighborhoods of these two cities, and find the best place to open the restaurant. 
+
+
+2. Data Source
+I will use the location data of New York and Toronto provided in Module 3, and use Foursquare API to get the features of the neighborhoods. 
+
+
+3. Methodology
+(1) Scrape the raw data of the neighborhood of Toronto online. Load the data into a table, clean the data, and get the coordinates of each neighborhood.
+
+(2) Get the information of the venues of all neighborhood, find out the top 10 most common venues of each neighborhood
+
+(3) Segment and cluster the neighborhood into 5 clusters
+
+(4) Visualize the resulting clusters
+
+(5) Find the best place to open a restaurant in Toronto
+
+(6) Conduct a similar process to find the best place to open a restaurant in New York
+
+(7) Compare the 2 places above and find the better one to open a restaurant 
+
+
+
+4. Results
+(1) Toronto 
+            Cluster 1: This area is the entertainment area, which is full of coffee shops, restaurants, stores, etc.
+            Cluster 2:  This area is the outdoor area, which is full of parks, playgrounds, gyms, etc. 
+            Cluster 3: There is only one neighborhood in this area, where people can find home service, music venues, gardens, etc.
+            Cluster 4: There is only one neighborhood in this area, where people can find gift shop, breakfast spot, and restaurants, etc. 
+            Cluster 5: There is only one neighborhood in this area, where people can find residence, pub, health food store, etc. 
+
+(2) New York City
+            Cluster 1: This area is the entertainment area, which is full of parks, coffee shops, bars, etc. 
+            Cluster 2: This area is the dining area, which is full of restaurants, coffee shops, bars, etc. 
+            Cluster 3: This area is the outdoor area, where people can find boating place, par, pet service, etc.
+            Cluster 4: There is only one neighborhood in this area, where people can find coffee, gym, discount store, etc. 
+            Cluster 5: This area is another dining area, but the restaurants are mostly Chinese or Mexican restaurant. People can also find cafe, pizza place in this area. 
+
+
+
+5. Observations and Recommendations
+The best place to open a restaurant in Toronto is Cluster 1, the entertainment area. Because there are already some restaurants and pubs in this area. When people in 
+Toronto want to go to eat, this area is their go-to place. 
+
+In New York City, both Cluster 1: the entertainment area and Cluster 2: the dining area are ideal places to open a restaurants. The question is which kind of restaurants, 
+if you want to open an American or Italian restaurants, Cluster 1: the entertainment area is the best choice; if you want to open an Italian or Asian restaurants, 
+Cluster 2: the dining area would be most ideal. In summary, there are more restaurants in Cluster 2 and they are more diversified. So it would be easier to get more 
+customers if you open a restaurant in Cluster 2: the dining area.
+
+
+
+6. Conclusion
+Comparing Cluster 1 in Toronto with Cluster 2 in New York City, you can find there are more coffee shops and bakery in Cluster 1 of Toronto, and there more restaurants 
+in Cluster 2 of New York City. Therefore it will be easier to get more customers if you chose Cluster 2 to open a restaurants. 
+
+In Cluster 2 of New York City, if you are planning to open a Chinese restaurant, Chinatown is the best choice. If you are planning to open an Korean Restaurant, you can 
+chose Midtown South. If you would like to open an Italian restaurant, you can chose Upper East Side, Yorkville, Lenox Hill, etc. 
+
+
+
